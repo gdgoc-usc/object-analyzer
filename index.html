@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Object Analyzer</h1>
+      <p>Allow webcam access to begin</p>
+      <video id="webcam" autoplay playsinline></video>
+      <button id="captureButton">Capture and Analyze</button>
+
+      <div class="results-box">
+        <h3>Analysis Result</h3>
+        <pre id="result">Waiting for analysis...</pre>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
